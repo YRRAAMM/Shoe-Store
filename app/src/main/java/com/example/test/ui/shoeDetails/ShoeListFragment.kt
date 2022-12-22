@@ -10,7 +10,7 @@ import androidx.lifecycle.Lifecycle
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
 import androidx.navigation.ui.onNavDestinationSelected
-import com.example.shoestore.model.Shoe
+import com.example.test.model.Shoe
 import com.example.test.R
 import com.example.test.databinding.FragmentShoeListBinding
 import com.example.test.databinding.ItemCardBinding

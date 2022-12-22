@@ -3,7 +3,7 @@ package com.example.test.ui.shoeDetails
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.shoestore.model.Shoe
+import com.example.test.model.Shoe
 
 
 class ShoeViewModel : ViewModel() {

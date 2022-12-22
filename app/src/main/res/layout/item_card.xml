@@ -7,8 +7,10 @@
 
         <variable
             name="shoe"
-            type="com.example.shoestore.model.Shoe" />
+            type="com.example.test.model.Shoe" />
     </data>
+
+
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -28,6 +30,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="vertical">
+
+                <!--got the image from here https://purepng.com/photo/23383/sports-running-shoes -->
 
                 <ImageView
                     android:id="@+id/shoeImg"
