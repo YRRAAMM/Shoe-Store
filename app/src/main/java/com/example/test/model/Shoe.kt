@@ -3,6 +3,7 @@ package com.example.test.model
 import android.os.Parcelable
 import kotlinx.parcelize.Parcelize
 
+
 //val images: List<String> = mutableListOf()
 //, var imageId : Int
 
