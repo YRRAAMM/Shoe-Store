@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Shoe Store</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="Enter">Enter</string>
+
+    <!--    detail screen-->
+    <string name="shoe_detail">Shoe Detail</string>
+    <string name="shoe_name">Shoe Name</string>
+    <string name="enter_show_name">Enter Show Name</string>
+    <string name="company">Company</string>
+    <string name="shoe_size">Shoe Size</string>
+    <string name="description">Description</string>
+    <string name="save_details">Save</string>
+    <string name="add_new_shoe">add new Shoe</string>
+    <string name="logout">Logout</string>
+    <string name="already_has_an_account">already has an account ?</string>
+    <string name="next">Next</string>
+    <string name="welcome_to_our_shoe_store">Welcome to our shoe store</string>
+    <string name="we_hope_you_enjoy_using_our_application">We hope you enjoy using our Application</string>
+    <string name="add_new_shoes_press_the_plus_button">add new shoes : Press the plus button</string>
+    <string name="to_return_to_the_login_screen_press_logout_button">To return to the Login screen: press Logout button</string>
+    <string name="how_to_use_the_app">How to Use The App</string>
+</resources>
