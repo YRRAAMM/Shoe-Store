@@ -10,7 +10,7 @@ class ShoeViewModel : ViewModel() {
 
     var shoe = Shoe("", 0.0F, "", "")
 
-    private val shoesList = mutableListOf<Shoe?>()
+    private val shoesLists = mutableListOf<Shoe?>()
 
     private val _shoeList = MutableLiveData<List<Shoe?>>()
 
@@ -18,11 +18,11 @@ class ShoeViewModel : ViewModel() {
         get() = _shoeList
 
     fun addNewShoe() {
-        shoesList.add(shoe)
+        shoesLists.add(shoe)
 
         // reset the shoe field in the details screen
         shoe = Shoe("", 0.0F, "", "")
-        _shoeList.value = shoesList
+        _shoeList.value = shoesLists
     }
 
 }
