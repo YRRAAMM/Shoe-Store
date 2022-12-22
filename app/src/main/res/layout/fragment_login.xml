@@ -5,13 +5,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ui.start.LoginFragment">
 
-
+    <!-- Constraint layout to align and position the views and to add relationships  -->
+    <!-- and to make the cardView centered easily -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="#3F51B5">
 
-
+        <!-- add this to make the layout look nicer -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -26,14 +27,17 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.5">
 
+            <!-- to enhance the UX for the user while writing -->
             <ScrollView
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
+                <!-- to position the views inside the cardView  -->
                 <androidx.constraintlayout.widget.ConstraintLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content">
 
+                    <!-- header -->
                     <TextView
                         android:id="@+id/login_tv"
                         android:layout_width="wrap_content"
@@ -85,7 +89,6 @@
 
                     </com.google.android.material.textfield.TextInputLayout>
 
-                    <!-- Password Text Field -->
                     <TextView
                         android:id="@+id/textView7"
                         android:layout_width="wrap_content"
@@ -101,6 +104,7 @@
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/email_TF" />
 
+                    <!-- Password Text Field -->
                     <com.google.android.material.textfield.TextInputLayout
                         android:id="@+id/password_TF"
                         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -123,6 +127,8 @@
 
                     </com.google.android.material.textfield.TextInputLayout>
 
+
+                    <!-- either button will navigate you to the WelcomeFragment -->
                     <Button
                         android:id="@+id/login_btn"
                         android:layout_width="0dp"

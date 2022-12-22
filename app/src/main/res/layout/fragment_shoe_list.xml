@@ -6,6 +6,7 @@
 
     </data>
 
+    <!-- to make the views aligned vertically in a single direction -->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -15,7 +16,9 @@
         <ScrollView
             android:layout_width="match_parent"
             android:layout_height="600dp"
-            tools:ignore="SpeakableTextPresentCheck">
+            tools:ignore="ExtraText,SpeakableTextPresentCheck">
+
+            <!-- to make the views aligned vertically in a single direction like listviews and recycler view to have the same feeling -->
 
             <LinearLayout
                 android:id="@+id/main_layout"

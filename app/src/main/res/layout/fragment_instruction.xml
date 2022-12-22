@@ -7,12 +7,13 @@
 
     </data>
 
+    <!-- constraint layout used here to make it easier to position views in screen -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".ui.start.InstructionFragment">
 
-
+        <!-- header -->
         <TextView
             android:id="@+id/textView3"
             android:layout_width="wrap_content"
@@ -28,6 +29,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
+        <!-- two instructions text views -->
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
@@ -56,6 +58,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView4" />
 
+
+        <!-- to move to the shoeListFragment -->
         <Button
             android:id="@+id/nextBtn"
             android:layout_width="0dp"

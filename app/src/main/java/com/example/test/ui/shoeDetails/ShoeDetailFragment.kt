@@ -46,7 +46,8 @@ class ShoeDetailFragment : Fragment(), MenuProvider {
             R.id.save_data -> {
 
                 shoeViewModel.addNewShoe()
-                findNavController().navigate(ShoeDetailFragmentDirections.actionShoeDetailFragmentToShoeListFragment())
+                findNavController().navigateUp()
+//                findNavController().navigate(ShoeDetailFragmentDirections.actionShoeDetailFragmentToShoeListFragment())
 
                 true
             }
